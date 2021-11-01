@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using System.Threading;
 
 namespace SalesCalculatorApp
 {
@@ -16,6 +17,7 @@ namespace SalesCalculatorApp
         public AddNewProduct()
         {
             InitializeComponent();
+            Thread.Sleep(2000);
         }
 
         private void label1_Click(object sender, EventArgs e)
