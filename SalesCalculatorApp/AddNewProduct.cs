@@ -17,7 +17,7 @@ namespace SalesCalculatorApp
         public AddNewProduct()
         {
             InitializeComponent();
-            Thread.Sleep(2000);
+            //Thread.Sleep(2000);
         }
 
         private void label1_Click(object sender, EventArgs e)
